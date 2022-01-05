@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.navbar-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo-container h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-container {
+    flex: 6;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container .menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-container .menu-list .menu-list-item {
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.menu-container .active {
+    font-weight: bold;
+}
+
+.menu-container .menu-list .menu-list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile-container .profile-image {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-container .profile-text-container {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.profile-container .dark-mode-toggle {
+    width: 40px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.profile-container .dark-mode-toggle .dark-mode-icon {
+    color: goldenrod;
+}
+
+.profile-container .dark-mode-toggle .dark-mode-toggle-ball {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    right: 1px;
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .sidebar-menu-icon {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+/* HEADER */
+
+
+/* MAIN CONTAINER  */
+.main-container {
+    background-color: #151515;
+    height: calc(100vh - 50px); 
+    color: white;
+}
+
+.main-container .main-content {
+    padding-left: 50px;
+}
+/* MAIN CONTAINER  */
